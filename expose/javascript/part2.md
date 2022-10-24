@@ -31,3 +31,11 @@
     E) false; true becomes 1, and 1 != 2, so we get false. 
     F) true; Boolean(2) evaluates to true, so true == true evaluates to true. 
 15. == and === both test for equality, but === tests for strict equality, so there will not be an attempt to convert any types. For example true == 1 evaluates to true, but true === 1 evaluates to false, becaue we don't attempt to convert true to 1 for ===. 
+
+17. [2, 4, 6]; We input the array [1, 2, 3] into the modifyArray, which creates a newArr, pushing the result of calling the callback function on each item. In this case, the callback function is doSomething, which multiplies each number by two add adds them to the array. Thus, it goes from [1, 2, 3] to [2, 4, 6].
+
+19. 
+1 
+4
+3
+2
