@@ -1,0 +1,2 @@
+1. The bug was that num1 and num2 were being passed in as strings, so the sum of them was simply the two strings concatenated with each other. For example "1" + "1" would return "11", even though the purpose of the tool should be 1 + 1 = 2. 
+2. The way I would fix it is to change the types of num1 and num2 to integers using parseInt. Now this is based upon the assumption that they are integers. If not, then I would convert it using other ways to keep the decimals, but for now, I would just use parseInt and cast num1 and num2 as integers. 
